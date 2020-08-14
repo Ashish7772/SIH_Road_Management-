@@ -1,0 +1,62 @@
+.login-form{
+    margin:0 auto;
+ width:300px;
+}
+.g-recaptcha{
+    margin: 10px;
+    
+}
+.form-control{
+    margin: 10px;
+
+}
+.table1{
+    margin-bottom: 20px;
+}
+td:hover{
+    background-color: #f5f5f5;
+}
+/*a.navbar-brand{
+   margin: 40px;
+}*/
+.cont2{
+    margin-bottom: 40px;
+}
+
+.col{
+    margin-right: 1rem;
+    margin-left: 1 rem;
+    margin-bottom: 1rem;
+  border: 0;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.container-fluid{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+h1.table-title{
+    font-size: xx-large;
+}
+.col-6 input_group{
+    margin: 50px;
+
+}
+h2.road_search{
+    margin-top: 20px;
+}
+.input-group{
+    margin-bottom: 30px;
+}
+.page-footer{
+   
+    margin-top: 1rem;
+    border: 0;
+   
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+

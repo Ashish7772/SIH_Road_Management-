@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>SIH Road Mgmt</title>
+</head>
+
+<body>
+ 
+  <!-- Navbar starts -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        Road Management System
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Complaints</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Records</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Nav bar ends-->
+  <!--Disclaimer starts here-->
+  <div class="container-fluid mb-2">
+    <marquee>This website does not represent final version of Web Application hence it is in testing mode.
+      This website is developed by team ReveGrand for SIH Hackathon Grand Finale which is on 1st August 2020 to
+      3rd
+      August 2020. </marquee>
+
+  </div>
+  <!---Disclaimer ends here-->
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+    </ol>
+  </nav>
+  <div class="cont2">
+    <div class="container">
+      <h1 class="mt-4">Road Management System</h1>
+      <p>An initiative system sponsered by Education Department Gujarat for the better of future transport & its
+        qualitive management</p>
+    </div>
+  </div>
+  <!---container starts-->
+  <div class="container-fluid">
+    <div class="row">
+      <!---First portion of screen starts here-->
+      <div class="col">
+        <div class="list-group">
+          <button type="button" class="list-group-item list-group-item-action">Types of Road</button>
+          <button type="button" class="list-group-item list-group-item-action">Downloads</button>
+          <button type="button" class="list-group-item list-group-item-action">Tenders</button>
+          <button type="button" class="list-group-item list-group-item-action">Cancelled /Returned</button>
+          <button type="button" class="list-group-item list-group-item-action">Department List</button>
+
+        </div>
+      </div>
+      <!----First portion of screeen ends here-->
+      <!---Second portion of screen starts here-->
+      <div class="col-6">
+        <!--Border starts here-->
+        <h2 class="road_search">Road Search</h2>
+        <div class="input-group">
+          <input type="text" aria-label="First name" class="form-control" placeholder="District">
+          <input type="text" aria-label="First name" class="form-control" placeholder="Sub Division">
+          <input type="text" aria-label="First name" class="form-control" placeholder="Village">
+          <input type="text" aria-label="Last name" class="form-control" placeholder="Road Name">
+          <button type="button" class="btn btn-outline-primary ml-2">Search</button>
+
+        </div>
+        <h1 class="table-title">Latest Tenders
+        </h1>
+
+        <!---First Table starts-->
+        <div class="table-responsive">
+          <table class="table table-bordered">
+            <thead class="thead-dark ">
+              <tr>
+                <th scope="col">Road Name</th>
+                <th scope="col">Road Length</th>
+                <th scope="col">Time Duration</th>
+                <th scope="col">Road Type</th>
+              </tr>
+            </thead>
+          </table>
+          <marquee behavior="scroll" direction="up" height="200px">
+            <table class="table table-bordered">
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <td scope="col">Road Name</td>
+                    <td scope="col">Road Length</td>
+                    <td scope="col">Time Duration</td>
+                    <td scope="col">Road Type</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td><a href="#">Mark</a></td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td><a href="#">Jacob</a></td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td><a href="#">Moto</a></td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+
+                </tbody>
+
+              </table>
+          </marquee>
+        </div>
+        <!---First table ends here-->
+        <!--Second table starts form here-->
+
+        <h1 class="table-title">Latest Corrigendums
+        </h1>
+        <div class="table-responsive">
+          <table class="table table-bordered ">
+            <thead class="thead-dark ">
+              <tr>
+                <th scope="col">Road Name</th>
+                <th scope="col">Road Length</th>
+                <th scope="col">Time Duration</th>
+                <th scope="col">Road Type</th>
+              </tr>
+            </thead>
+          </table>
+          <marquee behavior="scroll" direction="up" height="200px">
+            <table class="table table-bordered">
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <td scope="col">Road Name</td>
+                    <td scope="col">Road Length</td>
+                    <td scope="col">Time Duration</td>
+                    <td scope="col">Road Type</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td><a href="#">Mark</a></td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td><a href="#">Jacob</a></td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td><a href="#">Moto</a></td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+
+                </tbody>
+
+              </table>
+          </marquee>
+        </div>
+
+
+        <!---Border ends here-->
+      </div>
+      <!---Second portion of screen ends here-->
+      <!---Third portion of screen starts here-->
+      <div class="col">
+        <!---Login form starts here-->
+        <form>
+          <div class="login-form">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <select class="form-control" id="select_authority">
+              <option>Select Authority</option>
+              <option>NHAI</option>
+              <option>Muncipility Corp.</option>
+              <option>Market Committee</option>
+              <option>Gram Panchayat</option>
+            </select>
+          <!--  <div class="g-recaptcha" data-sitekey="6LfakrgZAAAAABqXqw_ahO9wZhlqKHRjLAvbssIp"></div>-->
+            <button type="submit" class="btn btn-primary" onclick="login()">Submit</button>
+          </div>
+
+        </form>
+        <!--login-form ends here-->
+
+      </div>
+      <!---Third portion of screen ends here-->
+    </div>
+    <!---Container ends here-->
+
+
+<!-- Footer -->
+<footer class="page-footer font-small mdb-color pt-4">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Footer links -->
+    <div class="row text-center text-md-left mt-3 pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Road Mgmt System</h6>
+        <p>Road management system is an idea of education dept. Gujarat, which delivers efficient,simple approach to its users for its native purpose.</p>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Pages</h6>
+        <p>
+          <a href="#!">Home</a>
+        </p>
+        <p>
+          <a href="#!">Tenders</a>
+        </p>
+        <p>
+          <a href="#!">Services</a>
+        </p>
+        <p>
+          <a href="#!">Information</a>
+        </p>
+        <p>
+          <a href="#!">News</a>
+        </p>
+      
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+        <p>
+          <a href="#!">About Us</a>
+        </p>
+        <p>
+          <a href="#!">Suugestions</a>
+        </p>
+        <p>
+          <a href="#!">Queries</a>
+        </p>
+        <p>
+          <a href="#!">Help</a>
+        </p>
+      </div>
+
+      <!-- Grid column -->
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Reach Us</h6>
+        <p>
+          <i class="fas fa-home mr-3"></i> ReveGrand Systems, HRY, India</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i> revegrandsystems@gmail.com</p>
+        <p>
+          <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+        <p>
+          <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Footer links -->
+
+    <hr>
+
+    <!-- Grid row -->
+    <div class="row d-flex align-items-center">
+
+      <!-- Grid column -->
+      <div class="col-md-7 col-lg-8">
+
+        <!--Copyright-->
+        <p class="text-center text-md-left">© 2020 Copyright:
+          <a href="http://localhost/road/">
+            <strong> SIHRoadMgmt.com</strong>
+          </a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-5 col-lg-4 ml-lg-0">
+
+        <!-- Social buttons -->
+        <div class="text-center text-md-right">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-google-plus-g"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+</footer>
+<!-- Footer -->
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.17.1/firebase-app.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/7.17.1/firebase-analytics.js"></script>
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+    <!--Add services you wnat to use-->
+    <script src="/__/firebase/7.17.1/firebase-auth.js"></script>
+    <script src="/__/firebase/7.17.1/firebase-firestore.js"></script>
+    <script src="/__/firebase/7.17.1/firebase-database.js"></script>
+    <script src="/__/firebase/7.17.1/firebase-analytics.js"></script>
+    <script src="js/cred.js"></script>
+    <script src="js/login.js"></script>
+    <script>
+      var user = firebase.auth().currentUser;
+  
+  if (user) {
+    alert("Successfully signed in");
+  } else {
+    // No user is signed in.
+    alert("noooooooooooooooooooooooooooo");
+  }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</body>
+
+</html>
